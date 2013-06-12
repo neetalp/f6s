@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html b:version='2' class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
@@ -218,7 +219,2616 @@ padding: 15px;
 }
 /* Header
 ----------------------------------------------- */
+.header-outer {
+background: #1c780d url(http://www.blogblog.com/1kt/transparent/header_gradient_shade.png) repeat-x scroll top left;
+_background-image: none;
+color: #ffffff;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-goog-ms-border-radius: 10px;
+border-radius: 10px;
+}
+.Header img, .Header #header-inner {
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-goog-ms-border-radius: 10px;
+border-radius: 10px;
+}
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 30px;
+padding-right: 30px;
+}
+.Header h1 {
+font: normal bold 50px Cantarell;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 130%;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner {
+margin: .5em 0 0;
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0;
+}
+.tabs-inner .widget ul {
+padding: 0;
+background: #f3f3f3 url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat scroll bottom;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-goog-ms-border-radius: 10px;
+border-radius: 10px;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .5em 1em;
+margin-right: 0;
+color: #cca211;
+font: normal normal 17px Calibri;
+-moz-border-radius: 0 0 0 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-goog-ms-border-radius: 0 0 0 0;
+border-radius: 0 0 0 0;
+background: transparent none no-repeat scroll top left;
+border-right: 1px solid #c9c9c9;
+}
+.tabs-inner .widget li:first-child a {
+padding-left: 1.25em;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 10px;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-goog-ms-border-top-left-radius: 10px;
+-goog-ms-border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+position: relative;
+z-index: 1;
+background: #ffffff url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat scroll bottom;
+color: #333333;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal normal 14px Calibri;
+text-transform: uppercase;
+color: #666666;
+margin: .5em 0;
+}
+/* Main
+----------------------------------------------- */
+.main-outer {
+background: transparent none repeat scroll top center;
+-moz-border-radius: 0 0 0 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-goog-ms-border-radius: 0 0 0 0;
+border-radius: 0 0 0 0;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+}
+.main-inner {
+padding: 15px 5px 20px;
+}
+.main-inner .column-center-inner {
+padding: 0 0;
+}
+.main-inner .column-left-inner {
+padding-left: 0;
+}
+.main-inner .column-right-inner {
+padding-right: 0;
+}
+/* Posts
+----------------------------------------------- */
+h3.post-title {
+margin: 0;
+font: normal normal 24px Cantarell;
+}
+.comments h4 {
+margin: 1em 0 0;
+font: normal normal 24px Cantarell;
+}
+.date-header span {
+color: #333333;
+}
+.post-outer {
+background-color: #ffffff;
+border: solid 1px #dadada;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-goog-ms-border-radius: 10px;
+padding: 15px 20px;
+margin: 0 -20px 20px;
+}
+.post-body {
+line-height: 1.4;
+font-size: 110%;
+position: relative;
+}
+.post-header {
+margin: 0 0 1.5em;
+color: #949494;
+line-height: 1.6;
+}
+.post-footer {
+margin: .5em 0 0;
+color: #949494;
+line-height: 1.6;
+}
+#blog-pager {
+font-size: 140%
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: dashed 1px #ccc;
+border-top: dashed 1px rgba(128, 128, 128, .5);
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #0fba10;
+border-bottom: 1px solid #0fba10;
+}
+.comments .continue {
+border-top: 2px solid #0fba10;
+}
+/* Widgets
+----------------------------------------------- */
+.widget ul, .widget #ArchiveList ul.flat {
+padding: 0;
+list-style: none;
+}
+.widget ul li, .widget #ArchiveList ul.flat li {
+border-top: dashed 1px #ccc;
+border-top: dashed 1px rgba(128, 128, 128, .5);
+}
+.widget ul li:first-child, .widget #ArchiveList ul.flat li:first-child {
+border-top: none;
+}
+.widget .post-body ul {
+list-style: disc;
+}
+.widget .post-body ul li {
+border: none;
+}
+/* Footer
+----------------------------------------------- */
+.footer-outer {
+color:#ececec;
+background: transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-goog-ms-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+}
+.footer-inner {
+padding: 10px 5px 20px;
+}
+.footer-outer a {
+color: #d9fff4;
+}
+.footer-outer a:visited {
+color: #94c9bb;
+}
+.footer-outer a:hover {
+color: #ffffff;
+}
+.footer-outer .widget h2 {
+color: #b7b7b7;
+}
+/* Mobile
+----------------------------------------------- */
+html body.mobile {
+height: auto;
+}
+html body.mobile {
+min-height: 480px;
+background-size: 100% auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+html .mobile .mobile-date-outer, html .mobile .blog-pager {
+border-bottom: none;
+background: transparent none repeat scroll top center;
+margin-bottom: 10px;
+}
+.mobile .date-outer {
+background: transparent none repeat scroll top center;
+}
+.mobile .header-outer, .mobile .main-outer,
+.mobile .post-outer, .mobile .footer-outer {
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.mobile .content-outer,
+.mobile .main-outer,
+.mobile .post-outer {
+background: inherit;
+border: none;
+}
+.mobile .content-outer {
+font-size: 100%;
+}
+.mobile-link-button {
+background-color: #1c780d;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile-index-contents {
+color: #333333;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: #ffffff url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat scroll bottom;
+color: #333333;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #c9c9c9;
+}
+.foot .Image {text-align:center}
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1000px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1000px;
+max-width: 1000px;
+_width: 1000px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 200px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 200px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("200px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 200px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 200px;
+margin-right: -200px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type='text/javascript'>
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23772343-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<meta content='fe6b15b3ec8b2a8061892699db42f7ea' name='p:domain_verify'/>
+<meta content='MJ12_CAF023840FA6F6274CC47C2A5C812E58' name='majestic-site-verification'/>
+<script type="text/javascript">var a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",k="?m=1";function l(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return d+k;case 2:return 0<=e[1].search(g)?null:d+f;default:return null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera Mini")||-1!=a[b][c]("IEMobile")){var m=l();m&&window.location.replace(m)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading'>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("iframes-styles-bubble", function() {
+          if (window.iframes && iframes.open) {
+            iframes.open(
+                '//www.blogger.com/navbar.g?targetBlogID\758821902060689977455\46blogName\75Innov8Social+-+Exploring+Social+Innov...\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://www.innov8social.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://www.innov8social.com/\46vt\075145599812444337402',
+                {
+                  container: "navbar-iframe-container",
+                  id: "navbar-iframe"
+                },
+                {
+                });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a href='http://www.innov8social.com/' style='display: block'>
+<img alt='Innov8Social - Exploring Social Innovation' height='283px; ' id='Header1_headerimg' src='http://2.bp.blogspot.com/-mBnFUprlLcA/UMHCD2Kvh2I/AAAAAAAAH7Q/ZH7HWhsGjUw/s970/IMG_9545.jpg' style='display: block' width='970px; '/>
+</a>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol'><div class='widget PageList' id='PageList1'>
+<div class='widget-content'>
+<ul>
+<li class='selected'><a href='http://www.innov8social.com/'>Home</a></li>
+<li><a href='http://www.innov8social.com/p/about.html'>About</a></li>
+<li><a href='http://www.innov8social.com/p/contact.html'>Contact</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<div class='tabs section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Friday, May 24, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='3078531001406534315'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.innov8social.com/2013/05/infographic-anatomy-of-winning-pitch.html'>Infographic: Anatomy of a Winning Pitch</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-3078531001406534315'>
+<p><div dir="ltr" style="text-align: left;" trbidi="on">
+<br />
+Entrepreneurs of any feather, including (and perhaps especially) social entrepreneurs need to be able to explain their concept, the problem it solves, and the vision ahead clearly and succinctly. We talked about the <a href="http://www.innov8social.com/2012/12/develop-pitch-itch.html" target="_blank">ABP (always be pitching) approach</a> earlier.d<br />
+<br />
+<a href="http://1.bp.blogspot.com/-sj7veP9Iemo/UZ-SdFv7kjI/AAAAAAAAIUY/49JllifrGMQ/s1600/Screen+Shot+2013-05-24+at+9.11.02+AM.png" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" height="44" src="http://1.bp.blogspot.com/-sj7veP9Iemo/UZ-SdFv7kjI/AAAAAAAAIUY/49JllifrGMQ/s200/Screen+Shot+2013-05-24+at+9.11.02+AM.png" width="200" /></a>The reason it is particularly important for social entrepreneurs to nail down their 'elevator' pitch (i.e. being able to deliver your pitch during the time equivalent to an elevator ride) is because social entrepreneurs are often operating in a <a href="http://www.innov8social.com/2011/05/5-buzzwords-to-know-in-sustainable.html" target="_blank">double or triple-bottom line</a> setting, or with a defined mission in mind.<br />
+<br />
+This infographic by <a href="http://investorpitches.com/" target="_blank">InvestorPitches</a>, breaks down a winning pitch into small, digestible parts. Though the visual is framed for startups pitching for VC or angel funding, the tips and approach are applicable in a number of settings.<br />
+<br />
+Enjoy the infographic, be sure to pitch well &amp; often!<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div style="margin-left: 1em; margin-right: 1em;">
+<img alt="The Anatomy of a Winning Pitch" class="visually_embed_infographic" rel="http://thumbnails.visually.netdna-cdn.com/the-anatomy-of-a-winning-pitch_518bf43be3b40.jpg" src="http://thumbnails.visually.netdna-cdn.com/the-anatomy-of-a-winning-pitch_518bf43be3b40_w587.jpg" />
+   </div>
+<br />
+<div class="visually_embed" data-category="Business" rel="infographic">
+<div class="visually_embed_bar">
+<span class="visually_embed_cycle"><a href="http://visual.ly/anatomy-winning-pitch/?utm_source=visually_embed">The Anatomy of a Winning Pitch infographic</a> </span>
+   </div>
+<a href="http://visual.ly/anatomy-winning-pitch?utm_source=visually_embed" id="visually_embed_view_more" target="_blank"></a>
+   <link href="http://visual.ly/embeder/style.css" rel="stylesheet" type="text/css"></link>
+   <script src="http://visual.ly/embeder/embed.js" type="text/javascript"></script>
+  </div>
+</div>
+</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>neetal parekh</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.innov8social.com/2013/05/infographic-anatomy-of-winning-pitch.html' rel='bookmark' title='permanent link'><abbr class='published' title='2013-05-24T09:28:00-07:00'>9:28 AM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.innov8social.com/2013/05/infographic-anatomy-of-winning-pitch.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1756049676'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8821902060689977455&postID=3078531001406534315&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=3078531001406534315&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=3078531001406534315&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=3078531001406534315&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=3078531001406534315&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://www.innov8social.com/2013/05/infographic-anatomy-of-winning-pitch.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://www.innov8social.com/search/label/infographic' rel='tag'>infographic</a>,
+<a href='http://www.innov8social.com/search/label/startup' rel='tag'>startup</a>,
+<a href='http://www.innov8social.com/search/label/tools' rel='tag'>tools</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<!-- google_ad_section_end(name=default) -->
+<div class='inline-ad'>
+<script type="text/javascript"><!--
+google_ad_client="pub-9902159106554053";
+google_ad_host="pub-1556223355139109";
+google_ad_width=300;
+google_ad_height=250;
+google_ad_format="300x250_as";
+google_ad_type="text_image";
+google_ad_host_channel="0001+S0009+L0007";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="449911";
+google_color_url="999999";
+google_color_text="000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<!-- google_ad_section_start -->
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Thursday, May 23, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='89476067385581663'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.innov8social.com/2013/05/change-vs-transformational-change-darcy.html'>Change vs. Transformational Change: Darcy Winslow Explains at the Strategic Execution Conference by IPS Learning and Stanford (#StratExCon)</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-89476067385581663'>
+<p><div dir="ltr" style="text-align: left;" trbidi="on">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+As social innovators focus on ways to create, optimize, and measure impact, a natural question arises as to what kind of impact should be pursued. Should you set goals that are attainable and within reach? Or should you strive for impact that is far-reaching and is perhaps beyond what your startup or organization even has capacity to meet with its current resources?<br />
+<br />
+<a href="https://mitsloan.mit.edu/faculty/detail.php?in_spseqno=41151" target="_blank">Darcy Winslow</a>, a systemic change expert and visionary who introduced key sustainability measures within Nike, explained the nuances between planning for change and designing for transformation. She spoke at the inaugural <a href="http://www.innov8social.com/2013/03/upcoming-event-apr-24-25th-2013.html" target="_blank">Strategic Execution Conference hosted by IPS Learning and Stanford University on April 24, 2013.</a><br />
+<br />
+Her talk was impassioned, intimate, and impactful in sharing her personal narrative in sustainability as well as her commitment to creating a culture for sustainable innovation within organizational infrastructure.<br />
+<br />
+<div style="text-align: center;">
+<br /></div>
+<blockquote class="twitter-tweet">
+<div style="text-align: center;">
+"Sustainability is not a problem to be solved, but a condition to be created."-@<a href="https://twitter.com/dswcollective">dswcollective</a>&nbsp;<a href="https://twitter.com/search/%23stratexcon">#stratexcon</a>&nbsp;<a href="https://twitter.com/search/%23mindshift">#mindshift</a>&nbsp;<a href="http://t.co/TpO8Mkx4Kq" title="http://twitter.com/Innov8Social/status/327169800923127808/photo/1">twitter.com/Innov8Social/s&#8230;</a></div>
+<div style="text-align: center;">
+&#8212; @Innov8Social&nbsp;<a href="https://twitter.com/Innov8Social/status/327169800923127808">April 24, 2013</a></div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<br />
+<h3 style="text-align: left;">
+Darcy's experience at Nike &amp; the Shambhala Initiative</h3>
+<br />
+Darcy spoke about her 20 year career at Nike, which included a number executive roles. When her team was approached to define the impact Nike shoe production was having on the environment and landfills---she was surprised to hear that the equivalent of one shoe of waste was created with the production of each pair of shoes, and that over the course of a year millions of gallons of oil were used to produce Nike's various lines of athletic gear.<br />
+<br />
+She set forth to shift the company from the inside. Forming a team to address social impact, they established the&nbsp;<a href="http://dswcollective.com/team-shambhala-nike%E2%80%99s-journey-from-wasted-reputation-to-corporate-responsibility-icon/" target="_blank">Nike Shambhala Initiative</a>--an ambitious strategy to re-think Nike operations centered around aspirational sustainability goals.<br />
+<br />
+The goals that Nike set were not intended to reward or recognize themselves for picking low-hanging fruit. They demanded 0 waste, 0 toxics, 100% closed loop systems and other key sustainability deliverables by 2020.<br />
+<br />
+I found myself noting that the plan was markedly ambitious, increasing the chance of failing to reach those high-level goals. Darcy reframed the issue as she explained the power of transformational change.<br />
+<br />
+<h3>
+What is makes change transformational?</h3>
+<div>
+<br />
+Darcy shared her view that any change that seeks less than an all-or-nothing results is not transformational--and is just a matter of degree. For a leading company such as Nike, she knew that a change of degree of impact was not enough. If Nike was going to get into the corporate social responsibility (CSR) movement, it would have to do so in a transformational way.</div>
+<div>
+<br /></div>
+<div>
+<br /></div>
+<h3 style="text-align: left;">
+How social innovators can incorporate transformational change goals</h3>
+<div>
+<br /></div>
+<div>
+Darcy's talk introduced the concept of a transformational change mindset.&nbsp;</div>
+<div>
+<br /></div>
+<div>
+When we seek to transform, rather than just gradually alter ourselves or our ventures there is a different approach, mindset, and energy that is employed. It is as though we must change from within to create change in results---and the process can be transformational at an individual as well as organizational level.</div>
+<div>
+<br />
+The goal of creating zero waste rather than reducing waste by 50% creates a different purpose, easy measuring stick, and clearly-defined goals. These can trickle down throughout the organization. If the goal was instituted in manufacturing setting, each team of engineers would be clear that their stage of production should yield 0 waste versus and intermediate amount of waste.&nbsp;</div>
+<div>
+<br /></div>
+<div>
+Of course, sustainability is often a product of evolution and iteration. So in addition to setting transformational change goals, it is essential to provide enough time to work to that change. When the Shambhala Initiative was introduced, the goal set was 2020--giving two decades to evolve innovation and internal practices to meet the aspirational milestones.&nbsp;</div>
+<div>
+<br /></div>
+<div>
+<br /></div>
+<h3 style="text-align: left;">
+Video of Darcy Winslow, Nike Foundation</h3>
+<div>
+You can take a look at Darcy speak briefly at her role with Nike in this short video.<br />
+<br /></div>
+<div>
+<br /></div>
+<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/uaxtTemKoIs" width="420"></iframe></div>
+</div>
+</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>neetal parekh</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.innov8social.com/2013/05/change-vs-transformational-change-darcy.html' rel='bookmark' title='permanent link'><abbr class='published' title='2013-05-23T10:16:00-07:00'>10:16 AM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.innov8social.com/2013/05/change-vs-transformational-change-darcy.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1756049676'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8821902060689977455&postID=89476067385581663&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=89476067385581663&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=89476067385581663&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=89476067385581663&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=89476067385581663&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://www.innov8social.com/2013/05/change-vs-transformational-change-darcy.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://www.innov8social.com/search/label/csr' rel='tag'>csr</a>,
+<a href='http://www.innov8social.com/search/label/darcy%20wilson' rel='tag'>darcy wilson</a>,
+<a href='http://www.innov8social.com/search/label/event' rel='tag'>event</a>,
+<a href='http://www.innov8social.com/search/label/nike' rel='tag'>nike</a>,
+<a href='http://www.innov8social.com/search/label/social%20enterprise' rel='tag'>social enterprise</a>,
+<a href='http://www.innov8social.com/search/label/transformational%20change' rel='tag'>transformational change</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<!-- google_ad_section_end -->
+<div class='inline-ad'>
+<script type="text/javascript"><!--
+google_ad_client="pub-9902159106554053";
+google_ad_host="pub-1556223355139109";
+google_ad_width=300;
+google_ad_height=250;
+google_ad_format="300x250_as";
+google_ad_type="text_image";
+google_ad_host_channel="0001+S0009+L0007";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="449911";
+google_color_url="999999";
+google_color_text="000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<!-- google_ad_section_start -->
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Wednesday, May 22, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='542093299232991727'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.innov8social.com/2013/05/happy-birthday-mom-remembering-you.html'>Happy Birthday Mom, Remembering You</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-542093299232991727'>
+<p><div dir="ltr" style="text-align: left;" trbidi="on">
+Dear Mom,<br />
+<br />
+Today you would have turned 60. I couldn't miss the opportunity to wish you :) I'm sure we would have organized a big get-together. You would have overseen the food and decorations with your characteristic good taste and attention to detail. &nbsp;Let's be honest, &nbsp;there would have been some stress in making sure the event met your vision---but once it was in full swing laughter, great food, and the company of friends and family would have been in abundance. &nbsp;Maybe we would have tried to surprise you (i.e. circa your 52nd bday---we had you pretty well that time). &nbsp;Or, maybe you would have leveraged your birthday to plan a family trip or cruise---turning a multiple of 10 gives you a mega bargaining chips, which come in handy when negotiating busy schedules and noncommittal planners.<br />
+<br />
+Best of all, you and Mina Aunty would have put together a fun aunties' event. &nbsp;You know the ones where you all get together, dress to the nines, and basically take over a poor, unsuspecting establishment with your laughter, jokes, and vibrant stories.<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://www.flickr.com/photos/44313045@N08/6516474777/" style="margin-left: 1em; margin-right: 1em;" title="paper heart by photologue_np, on Flickr"><img alt="paper heart" height="240" src="http://farm8.staticflickr.com/7148/6516474777_df2afdcb67.jpg" width="320" /></a></div>
+<br />
+<br />
+There are so many things that I think you would have loved. Like the iPhone and iPad. Whenever I taught workshops on how to use them at the Apple Store, I always imagined what you would have thought of them. I have a feeling you would have taken to them like a fish to water. They are absolutely incredible. You would have used them to look up recipes, check out the latest kitchen gadgets, and maybe even FaceTime across the world.<br />
+<br />
+I asked you once, between the time things were serious and very very serious, about whether I should practice law. You were steadfast in supporting my own vision of my connection to the field. I think of your belief often and feel it in the family's unconditional support.<br />
+<br />
+I wonder what you would have thought of my journey and of Innov8Social. I would have loved to share with you the amazing experience it has been, the people I have met, the ideas that continually expand my mind, the innovation I have seen in action, and the possibilities to improve the world in ways that we had never imagined before.<br />
+<br />
+We all think about you, and love you always.<br />
+<br />
+Happy birthday Mummy :)<br />
+<br />
+love<br />
+neetal<br />
+<br /></div>
+</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>neetal parekh</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.innov8social.com/2013/05/happy-birthday-mom-remembering-you.html' rel='bookmark' title='permanent link'><abbr class='published' title='2013-05-22T22:10:00-07:00'>10:10 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.innov8social.com/2013/05/happy-birthday-mom-remembering-you.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1756049676'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8821902060689977455&postID=542093299232991727&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=542093299232991727&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=542093299232991727&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=542093299232991727&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=542093299232991727&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://www.innov8social.com/2013/05/happy-birthday-mom-remembering-you.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://www.innov8social.com/search/label/reflections' rel='tag'>reflections</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, May 11, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='8052238936589063517'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.innov8social.com/2013/05/8-takeaways-from-stanford-codex.html'>8 Takeaways from Stanford Codex #FutureLaw 2013: The Big Picture</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8052238936589063517'>
+<p><div dir="ltr" style="text-align: left;" trbidi="on">
+<div dir="ltr" trbidi="on">
+<a href="http://www.flickr.com/photos/44313045@N08/8729687782/" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" title="Codex #FutureLaw 2013 Conference by photologue_np, on Flickr"><img alt="Codex #FutureLaw 2013 Conference" height="150" src="http://farm8.staticflickr.com/7326/8729687782_0faa9ded5d.jpg" width="200"></a>On April 26th 2013 hundreds of attorneys, law students, legal startup founders, informatics experts, and venture capitalists gathered for the first ever <a href="http://www.law.stanford.edu/event/2013/04/26/codex-futurelaw-2013">Codex FutureLaw Conference (i.e. #FutureLaw)</a> hosted by <a href="http://www.law.stanford.edu/organizations/programs-and-centers/codex-the-stanford-center-for-legal-informatics">Codex</a>-- the Stanford Center for Legal Informatics<span style="background-color: #fefefe; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px;">&#160;</span>.<br>
+<br>
+<a href="http://www.flickr.com/photos/44313045@N08/8729687642/" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" title="Codex #FutureLaw 2013 Conference by photologue_np, on Flickr"><img alt="Codex #FutureLaw 2013 Conference" height="153" src="http://farm8.staticflickr.com/7366/8729687642_a9b8ce4ca0.jpg" width="200"></a>The day was structured in 5 panel discussions with a kickoff keynote by <a href="http://www.rocketlawyer.com/executive-team.rl">Charley Moore</a> (Founder of RocketLawyer) and capstone keynote by Daniel Martin Katz (Co-founder of <a href="http://reinventlaw.com/">ReinventLaw Laboratory </a>and Asst. Professor at Michigan State Univ). It was a day for thinkers and doers in the legal tech space to talk shop, exchange notes, and ask tough questions about the field.<br>
+<br>
+The Reinvent Law movement has been making its voice heard in Silicon Valley. You may recall our&#160;<a href="http://www.innov8social.com/2013/03/twitter-recap-of-reinventlaw-silicon.html">recap of #ReinventLaw Silicon Valley through a compilation of tweets and photos</a>. That event, in March 2013, &#160;brought together 40+ speakers in a rapid-fire format to discuss major issues, inefficiencies, and challenges facing the current legal system---and solutions that tech + design + delivery can provide.<br>
+<br>
+The #FutureLaw Conference at Stanford was a logical follow-up to the March event. It took place in a more intimate setting featuring fewer speakers, many of whom were leaders in this emerging space, in &#160;interactive small panels featuring significant audience participation. The exploration into the topic was genuine---with many of the panelists posing questions from the audience in other panel sessions. The atmosphere was collegial and conversations of concepts raised in the panels continued between participants during the breaks and lunch hour.<br>
+<br>
+<h2 style="text-align: left;">
+<span style="font-size: x-large;">
+Recaps of #FutureLaw</span></h2>
+<br>
+There are a few excellent recaps and summaries of the event that have been published. I am including Stanford Codex&#39;s Storify recap of the event below. Here are a few additional resources and recaps:<br>
+<br>
+<ul style="text-align: left;">
+<li><a href="http://www.robotandhwang.com/2013/05/the-stanford-consensus-notes-from-futurelaw/">Stanford Consensus: Notes from FutureLaw</a>&#160;(Robot Robot &amp; Hwang)</li>
+<li><a href="http://www.law.com/jsp/lawtechnologynews/PubArticleLTN.jsp?id=1202598958451&amp;Stanford_Looks_to_FutureLaw&amp;slreturn=20130411130917">Stanford Looks to FutureLaw</a> (Law Technology News)</li>
+<li><a href="http://www.flickr.com/photos/stanford_law/sets/72157633382514688/">Stanford Law Flickr Photos of #FutureLaw 2013&#160;</a></li>
+<li><a href="http://www.robotandhwang.com/2013/03/some-design-notes-on-futurelaw-2013/">Some Design Notes on FutureLaw</a> (Robot Robot &amp; Hwang)</li>
+<li><a href="http://storify.com/StanfordLaw/a-look-back-at-codex-futurelaw-2013">A look back at Codex FutureLaw 2013 - Storify</a> (StanfordLaw) [includes <b>video</b> of the speakers + panels]</li>
+</ul>
+<br>
+<h2 style="text-align: left;">
+<span style="font-size: x-large;">
+8 Takeaways from #FutureLaw Conference Hosted by Stanford Codex</span></h2>
+As the day progressed I began scribbling broad concepts in the margins of my notes. Things that left me...wait for it... #mindblown, or that provided fresh takes on enduring concepts. The field of law is ripe for innovation. The industry has been one of the hardest-hit by the Great Recession. And while select firms and attorneys have survived, if not prospered, for each success there are countless numbers of law school graduates and attorneys who struggle to find a foothold in the field, and perhaps no longer even seek one. Idle/restless legal professionals + tech innovation has given new pathways to take a look at the field through telescope, microscope, and 3D glasses. What has resulted is a movement to disrupt the status quo, and examine the success of law through the lens of its constituents rather than its practitioners. This change of viewpoint lends to re-prioritization and re-thinking of what law should be, and what data and design-driven innovation can lead law to become.<br>
+<br>
+I wanted to share a few broad brushstroke takeaways from Codex FutureLaw 2013.<br>
+<br>
+<b>1. Contracts don&#39;t need to be written documents.</b> The second panel discussion of the day was on computational law and contracts. Panelist Kingley Martin (<a href="http://www.kiiac.com/index.htm">of KIIAC</a>) brought up the fascinating question of &quot;what is contract?&quot; He reframed the traditional concept of a contract by specifying that above all, it is a &quot;workflow design&quot; and noting that we have chosen to express the workflow through words on a document. However, contracts could also be expressed as code or in a variety of other formats---some of which might be more suitable to replicating, customizing, and operationalizing.<br>
+<br>
+<b>2. Legal startups should choose a VC wisely. </b>The third panel was all about financing legal startups. VCs and founders shared their experience in the funding process. One legal startup founder made it clear that legal startups are a unique animal, and that founders trying to line up funding should seek out a VC who understands nuances of the field. Another panelist summed up his thoughts on exit strategies: &#160;&quot;acquistion is a reasonable outcome, but a terrible plan.&quot;<br>
+<br>
+<b>3. Design for people first.</b> &#160;Budding law students are instructed that one of an attorney&#39;s duties is to zealously represent his/her client. That makes sense for the lawyer, and the client...but not for the field of law. The result is a field that contains, gaping disconnects and inefficiencies, essentially by design. Instead, new legal startups are thinking about the participants in law as they design tools, UI, and resources. They are leveraging what people want to know about the law in designing tools to provide those resources efficiently, cost-effectively, while leveraging copious amounts of relevant data available.<br>
+<br>
+<a href="http://www.flickr.com/photos/44313045@N08/8728569915/" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" title="Codex #FutureLaw 2013 Conference by photologue_np, on Flickr"><img alt="Codex #FutureLaw 2013 Conference" height="320" src="http://farm8.staticflickr.com/7295/8728569915_7a57893bb9.jpg" width="236"></a><b>4. Open source hybrids are OK.</b> In one of the panels it was brought up that open sourcing legal information is particularly difficult because libraries of contracts, filings, documents, and research are precisely what distinguishes various attorneys and firms. Instead of a full open source mode, there might be innovative hybrid models that will enable attorneys and firms to retain their valuable information while also contributing to the overal open law movement. It doesn&#39;t have to be an either/or thing.<br>
+<br>
+<b>5. Law can be &quot;automated&quot;.</b> &#160;As consumers are already used to &quot;boiler plate&quot; language for everything from online shopping to buying a new car. Instead of recreating the wheel, maybe there&#39;s a way to standardize it to make the content more accessible and understandable. Awhile back Innov8Social covered the <a href="http://www.innov8social.com/2012/11/theres-problem-with-privacy-policies.html">movement to standardize #PrivacyIcons, lead by a group called Disconnect.</a>&#160;Movements such as that one are showing us that parts of law can be made more efficient through smart automation.<br>
+<br>
+<b>6. Law can be re-imagined.</b> When you are sitting at a library studying the Rule Against Perpetuities in law school or slogging away memorizing key concepts and case law for the Bar exam, there is little room for thought on ways to re-imagine the field of law itself. But the truth is, of course it can be re-imagined. Entrepreneurs and attorneys complain that the patent law system and taxation mechanisms haven&#39;t changed or adapted to emerging needs and industries. The influx and availability of digital data also changes how we interact with the field. Not only <i>can</i>&#160;law be reimagined, it is almost feels&#160;imperative that the movement to do so continue.<br>
+<table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody>
+<tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-XzOWqthWnLM/UY6RSr4o76I/AAAAAAAAISc/4dO38YWMzSw/s1600/Screen+Shot+2013-05-11+at+11.41.40+AM.png" imageanchor="1" style="clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="259" src="http://4.bp.blogspot.com/-XzOWqthWnLM/UY6RSr4o76I/AAAAAAAAISc/4dO38YWMzSw/s320/Screen+Shot+2013-05-11+at+11.41.40+AM.png" width="320"></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">credit: <a href="http://www.margarethagan.com/wp-content/plugins/wp-simpleviewer/svcore/full.html?bg=222222&amp;galleryURL=http%3A%2F%2Fwww.margarethagan.com%2Fwp-content%2Fplugins%2Fwp-simpleviewer%2Fgallery.php%3Fgallery_id%3D14&amp;baseURL=http://www.margarethagan.com/drawings/illustrated-law-flow-charts/&amp;showopenbutton=true&amp;showfullscreenbutton=true&amp;useflickr=false&amp;mobileshowcaption=true&amp;mobileshownav=true&amp;mobileshowthumbs=true&amp;mobilethumbstextcolor=%23fff&amp;mobilecaptiontextcolor=%23fff&amp;mobileshowpagecount=true&amp;firstimageindex=-1&amp;title=SimpleViewer%20Gallery" target="_blank">Margaret Hagan</a></td></tr>
+</tbody></table>
+<br>
+<b>7. Law can be beautiful. </b>One of the house favorites of the day was the panel on design. The startups and designers presented beautiful, simple, mindblowing ways to think about legal tech data. It becomes quite clear that the proof is in the pudding when you view the work of these designers, such as Margaret Hagan<br>
+<br>
+<b>8. Lawyers can re-invent law.</b> It may be tempting to wait for changes to the field. But the conference showed that there are already a number of attorneys who are taking bold steps to reinvent the field. The final speaker of the day, Daniel Katz spoke to tangible ways that law school education can be tweaked to prepare the next generation of legal professionals---who have studied not only Torts but also computational law, informatics, and have actually worked with a team to pitch, code, validate, and launch a project leveraging law, tech, innovation, design with data and delivery.<br>
+<br>
+<h2 style="text-align: left;">
+<span style="font-size: x-large;">
+Stanford Law&#39;s Storify: A Look Back at Codex FutureLaw 2013</span></h2>
+<div>
+</div></div></div></p>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://www.innov8social.com/2013/05/8-takeaways-from-stanford-codex.html#more' title='8 Takeaways from Stanford Codex #FutureLaw 2013: The Big Picture'>Read more &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>neetal parekh</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.innov8social.com/2013/05/8-takeaways-from-stanford-codex.html' rel='bookmark' title='permanent link'><abbr class='published' title='2013-05-11T12:23:00-07:00'>12:23 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.innov8social.com/2013/05/8-takeaways-from-stanford-codex.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1756049676'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8821902060689977455&postID=8052238936589063517&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=8052238936589063517&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=8052238936589063517&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=8052238936589063517&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=8052238936589063517&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://www.innov8social.com/2013/05/8-takeaways-from-stanford-codex.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://www.innov8social.com/search/label/community-building' rel='tag'>community-building</a>,
+<a href='http://www.innov8social.com/search/label/event' rel='tag'>event</a>,
+<a href='http://www.innov8social.com/search/label/legal%20structure' rel='tag'>legal structure</a>,
+<a href='http://www.innov8social.com/search/label/social%20innovation' rel='tag'>social innovation</a>,
+<a href='http://www.innov8social.com/search/label/startup' rel='tag'>startup</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, May 7, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='6400053375439607723'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.innov8social.com/2013/05/interview-with-r-todd-johnson-co-author.html'>Interview with R. Todd Johnson, Co-Author of California's Flexible Purpose Corporation Legislation</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6400053375439607723'>
+<p><div dir="ltr" style="text-align: left;" trbidi="on">
+California holds a special place in the story of new legal structures for social enterprise. Not only was it the<a href="http://www.innov8social.com/2011/10/6-states-that-have-passed-benefit.html"> 6th state</a> to pass benefit corporation legislation, it was also the <a href="http://www.innov8social.com/2011/09/2-social-enterprise-bills-in-california.html">first state to pass flexible purpose legislation</a>----in the same legislative term.<br>
+<br>
+<div>
+<div style="text-align: right;">
+</div>
+<table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody>
+<tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-PC3zMlaaSaA/UYkLdfAE_tI/AAAAAAAAIPs/HC9-wrQEESE/s1600/IMG_8966.jpg" imageanchor="1" style="clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="200" src="http://4.bp.blogspot.com/-PC3zMlaaSaA/UYkLdfAE_tI/AAAAAAAAIPs/HC9-wrQEESE/s200/IMG_8966.jpg" width="200"></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">R. Todd Johnson</td></tr>
+</tbody></table>
+One of the thought leaders in social enterprise law in California, and co-author of the FPC (flexible purpose corporation) law is R. Todd Johnson. <a href="http://www.jonesday.com/rtjohnson/">Todd is a Partner at Jones Day and is the Practice Leader of the Energy</a> group of the firm where he focuses on Renewable Energy and Sustainability.<br>
+<br>
+Todd has had a lengthy career serving social entrepreneurs, having represented companies such as SunPower, Embrace Technologies, GoodGuide, LaborFair.com, as well as Grameen Trust, and advising companies like Good Capital, Global Giving, and B Labs during his 25 year career at Jones Day. He also blogs at <a href="http://www.businessforgood.co/">Business for Good</a>.  <br>
+<br></div>
+<div>
+<div style="text-align: right;">
+</div>
+Innov8Social had a chance to speak with Todd Johnson about his vision for the intersection of law, policy, and social enterprise; as well as the story behind California&#39;s flexible purpose corporation. <br>
+<br></div>
+<div>
+<h4 style="text-align: left;">
+<span style="background-color: #d9ead3;">Q1 | Innov8Social: &#160;How do you define social entrepreneurship?</span></h4>
+<h4 style="text-align: left;">
+<span style="background-color: #fff2cc;">A1 | R. Todd  Johnson, Partner at Jones Day:&#160;</span>&#160;</h4>
+<div style="text-align: left;">
+&#160;Social entrepreneurship is applying the best tools of entrepreneurship to tackle some of the world&#39;s toughest problems, in a way that people and the planet can flourish.  <br>
+<br></div>
+</div>
+<div>
+<h4 style="text-align: left;">
+<span style="background-color: #d9ead3;">Q2 | Innov8Social: &#160;Can you share the history of the flexible purpose corporation? </span></h4>
+<h4 style="text-align: left;">
+<span style="background-color: #fff2cc;">A2 | Todd Johnson :</span></h4>
+<br></div>
+<div>
+In the late 1990&#39;s as I started working with social entrepreneurs I noticed some dysfunction in the way the legal community thought about legal structures for social enterprises.  The thinking was bifurcated...there was a 1 or 0 mentality on the subject, and there wasn&#39;t much middle ground. Entrepreneurs were forced to choose between being a &#8220;for-profit&#8221; or a &#8220;not-for-profit,&#8221; terms loaded with baggage of what entities should and should not do.  <br>
+<br></div>
+<div>
+Then, a shift started happening. Companies such as Salesforce championed a 1-1-1 model and other corporations, often spurred by institutional investors, adopted strong environmental, social and corporate governance (ESG) measures. These innovations moved the for-profit model more toward a company doing good rather than merely minimizing harm.  <br>
+<br></div>
+<div>
+Even these initial steps were cautiously taken. Companies like Google already had standing mottos of doing the least harm (i.e. &quot;don&#39;t be evil&quot;) and certain sin stock filters on portfolios excluded vice-products such as tobacco, alcohol, etc.  <br>
+<br></div>
+<div>
+I began working with the social enterprise PureVida Coffee in the late 1990&#39;s, whose founders had new questions. For example, they wanted to know if you want to do something that is fully blended, what legal structure should you adopt?  <br>
+<br></div>
+<div>
+As I started thinking about these issues, I met Jay Cohen Gilbert and others social enterprise thinkers at the Aspen Institute.  He and B Corporation co-founders were beginning to develop the B Lab and B Corporation concepts.  <br>
+<br></div>
+<div>
+In working closely on issues of social enterprise law, I saw a huge flaw in many corporate statutes. In California, for example, a social enterprise couldn&#39;t even file Articles of Incorporation with a mission/impact driven statement of purpose. The fact that founders could not write in a purpose for their corporations was a major issue.  <br>
+<br></div>
+<div>
+In 2005-2006 I did a study on constituency statutes for B Lab. Constituency statutes can be effective tools in legal tool kit; however, they don&#39;t necessarily create transparency around stakeholder empowerment. And in all 31 states with constituency statutes, it is elective (i.e. Boards can abide, but are not required to). <br>
+<br></div>
+<div>
+In 2008, B Lab proposed a California constituency statute applying a &quot;shall&quot; requirement---to apply to all corporations. While I supported the idea that the market should allow for social enterprise, I was wary of forcing it on every corporation. A few entities, including the State Bar Association opposed the proposed law. 2008 was also the first year of major budget battles in CA (i.e. there were 99 bills that Gov. Schwarzenegger allowed to lapse, and vetoed by default). The governor didn&#39;t comment on any of the vetoes, except for this one---he told the bill&#8217;s sponsor that he wanted a better bill, and wanted CA to be a leader. <br>
+<br></div>
+<div>
+I convened a meeting at our SF offices in Fall 2008. The robust discussions resulted in a working group of 10 lawyers including attorneys from large firms, smaller firms law firm, academics, nonprofit attorneys, and foundation attorneys who kicked off a multi-year effort to create a new statute for social enterprise. </div>
+<div>
+<br>
+In 2009, we published a draft of a new law and distributed it to 300 social entrepreneurs, organizations, thought leaders, and incubators, and received comments from many. In response, we made changes to the proposed legislation and prepared an FAQ to explain the changes made and those that were not made in response to comments. That FAQ remains available to this date, providing transparency in the trade-offs made in drafting the legislation. In 2010, California state senator DeSaulnier sponsored the bill. Unfortunately it was another budget battle bill year, and the bill didn&#39;t proceed very far.  In 2010, B Lab also ended up introducing their own legislation in MD and VT, and in 2011, introduced a version in California. <br>
+<br></div>
+<div>
+In 2011, both the benefit corporation and flexible purpose corporation legislation passed into law in CA. Since that time, fifteen states have adopted either a benefit corporation or social enterprise legislation that resembles FPC. And just two weeks ago, Delaware (the grand-daddy of all corporate laws), introduced legislation that is a hybrid between the benefit corporation and the flexible purpose corporation. <br>
+<br></div>
+<div>
+<h4 style="text-align: left;">
+<span style="background-color: #d9ead3;">Q3 | Innov8Social: &#160;What have you seen from the front lines of being part of social enterprise legislation? </span></h4>
+<h4 style="text-align: left;">
+<span style="background-color: #fff2cc;">A3 | Todd Johnson:   </span></h4>
+</div>
+<div>
+<br>
+</div></div></p>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://www.innov8social.com/2013/05/interview-with-r-todd-johnson-co-author.html#more' title='Interview with R. Todd Johnson, Co-Author of California&#39;s Flexible Purpose Corporation Legislation'>Read more &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>neetal parekh</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.innov8social.com/2013/05/interview-with-r-todd-johnson-co-author.html' rel='bookmark' title='permanent link'><abbr class='published' title='2013-05-07T07:12:00-07:00'>7:12 AM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.innov8social.com/2013/05/interview-with-r-todd-johnson-co-author.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1756049676'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8821902060689977455&postID=6400053375439607723&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=6400053375439607723&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=6400053375439607723&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=6400053375439607723&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=6400053375439607723&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://www.innov8social.com/2013/05/interview-with-r-todd-johnson-co-author.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://www.innov8social.com/search/label/flexible%20purpose%20corporation' rel='tag'>flexible purpose corporation</a>,
+<a href='http://www.innov8social.com/search/label/hybrid%20legal%20structure' rel='tag'>hybrid legal structure</a>,
+<a href='http://www.innov8social.com/search/label/interview' rel='tag'>interview</a>,
+<a href='http://www.innov8social.com/search/label/legal%20structure' rel='tag'>legal structure</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, April 30, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='7783878805533122060'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.innov8social.com/2013/04/40-blogs-on-social-innovation-impact.html'>40+ Blogs on Social Innovation, Impact Entrepreneurship, and Social Enterprise You Should Check Out</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7783878805533122060'>
+<p><div dir="ltr" style="text-align: left;" trbidi="on">
+<table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; margin-right: 1em; text-align: left;"><tbody>
+<tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-uFzTuwU0f9c/UYB579yKF1I/AAAAAAAAINw/-jQGEwm3FlA/s1600/Screen+Shot+2013-04-30+at+7.11.21+PM.png" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><img border="0" height="311" src="http://3.bp.blogspot.com/-uFzTuwU0f9c/UYB579yKF1I/AAAAAAAAINw/-jQGEwm3FlA/s320/Screen+Shot+2013-04-30+at+7.11.21+PM.png" width="320" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">created in Apple Pages</td></tr>
+</tbody></table>
+The field of social innovation, impact entrepreneurship, social enterprise is expanding at an incredible pace. It is a moving stream of information,&nbsp;barreling&nbsp;forward...in a hurry.<br />
+<div>
+<br />
+For a blogger, that can a unique challenge. You know that what you pen today may be outdated by the time you hit "publish". However, the dynamic nature of blogs (and the ability to update them) is a silver lining and can make our work more agile.</div>
+<div>
+<br /></div>
+<div>
+Blogging in the space, we learn tremendous amounts from other blogs that focus on different niches, hone in on discerning nuances, structure their information distinctly, adopt unique takes on design, and bring something wholly their own flavor to the social innovation table.&nbsp;</div>
+<div>
+<br /></div>
+<div>
+With the caveat that this list will be updated as new blogs come to, here are a few interesting blogs in the social innovation space to check out.&nbsp;</div>
+<div>
+<br /></div>
+<div>
+We would love to hear your picks and favorites (and even your #socinn blog titles) in the comments.</div>
+<div>
+<br /></div>
+<h3 style="text-align: left;">
+40+ Blogs on Social Innovation, Impact Entrepreneurship, and Social Enterprise You Should Check Out</h3>
+<div>
+<ol style="text-align: left;">
+<li><a href="http://acumen.org/blog">Acumen Blog</a>&nbsp;- bold ways of tackling poverty</li>
+<li><a href="http://armchairadvocates.com/">Armchair Advocates</a>&nbsp;- blog where social media meets social good</li>
+<li><a href="https://www.ashoka.org/">Ashoka</a> - blog for and by innovators for the public</li>
+<li><a href="http://www.bcorporation.net/blog">B Corporation Blog</a>&nbsp;- voice of the B corporation community</li>
+<li><a href="http://www.bethkanter.org/">Beth's Blog</a>&nbsp;- how networked nonprofits leverage networks and data for social change</li>
+<li><a href="http://www.blendedprofit.com/blog/gamechanger/">BlendedProfit</a>&nbsp;- blog of past shows of thought leaders in good business</li>
+<li><a href="http://www.building43.com/blogs/">Building43</a>&nbsp;- compilation of blogs highlight small teams + big impact</li>
+<li><a href="http://www.businessforgood.co/">Business for Good Blog</a>&nbsp;- authored by CA social enterprise attorney</li>
+<li><a href="http://www.calvertfoundation.org/blog/">Calvert Foundation Blog</a>&nbsp;- blog on impact investing</li>
+<li><a href="https://secure.csi.edu.au/site/Home/Blog.aspx">The Centre for Social Impact Blog</a>&nbsp;- academic excellence fit for social purpose</li>
+<li><a href="http://www.fastcoexist.com/">Co.exist&nbsp;</a>- Fast Co. blog on world changing ideas and innovation</li>
+<li><a href="http://crowdsourcing.org/">Crowdsourcing.org</a>&nbsp;- industry blog on crowdsourcing</li>
+<li><a href="http://www.csrwire.com/">CSRWire</a>&nbsp;- corporate social responsibility blog</li>
+<li><a href="http://www.cuttingedgecapital.com/blog/">Cutting Edge Capital Blog</a> - strategies for the impact economy</li>
+<li><a href="http://www.dailygood.org/">DailyGood Blog</a>&nbsp;- news that inspires</li>
+<li><a href="http://dowser.org/">Dowser</a>&nbsp;- blog on who's solving what and how&nbsp;</li>
+<li><a href="http://www.echoinggreen.org/blog">Echoing Green Blog</a>&nbsp;- unleashing your talent to solve the world's biggest problems</li>
+<li><a href="http://foundationcenter.org/blogs.html;jsessionid=YWYBQKYX2V5IXLAQBQ4CGW15AAAACI2F">Foundation Center Blogs</a>&nbsp;- knowledge to build on</li>
+<li><a href="http://good.is/">Good.is</a>&nbsp;- social network and blog for social good</li>
+<li><a href="http://blog.google.org/">Google.org Blog</a>&nbsp;- technology for social impact</li>
+<li><a href="http://bayarea.the-hub.net/blog">The Hub Bay Area Blog</a>&nbsp;- where change goes to work</li>
+<li><a href="http://www.huffingtonpost.com/impact/">HuffPost Impact</a>&nbsp;- blog on causes, volunteering, and people making a difference</li>
+<li><a href="http://blog.en.idealist.org/">Idealist Blog</a>&nbsp;-&nbsp;small and big ways people are facing obstacles, turning good intentions into action</li>
+<li><a href="http://blog.ideorg.org/">IDEorg Blog</a>&nbsp;- cultivating potential&nbsp;</li>
+<li><a href="http://www.innov8social.com/">Innov8Social</a>&nbsp;- blog exploring social innovation</li>
+<li><a href="http://www.kiva.org/updates/kiva">Kiva Blog</a>&nbsp;- blog by Kiva fellows field partners, entrepreneurs, and staff</li>
+<li><a href="http://mashable.com/social-good/">Mashable Social Good Blog</a>&nbsp;- blog on social good</li>
+<li><a href="http://netimpact.org/">Net Impact Blog</a>&nbsp;- students and professionals creating positive impact in the workplace &amp; world</li>
+<li><a href="http://www.newempirebuilders.com/">New Empire Builders</a>&nbsp;- blog on startups, nonprofits, + companies making the world better</li>
+<li><a href="http://www.nextbillion.net/blogfeed.aspx">NextBillion Blog</a>&nbsp;- development through enterprise&nbsp;</li>
+<li><a href="http://www.nonprofitlawblog.com/">Nonprofit Law Blog</a>&nbsp;- information to empower leaders, by NEO Law Group</li>
+<li><a href="http://lawprofessors.typepad.com/nonprofit/">Non-Profit Law Prof Blog</a>&nbsp;- a blog part of the Law Professors Blog Network</li>
+<li><a href="http://skollworldforum.org/category/original/">Skoll World Forum Blog</a>&nbsp;- Skoll original content</li>
+<li><a href="http://www.socialearth.org/">Social Earth</a>&nbsp;- blog promoting entrepreneurship, business, and ideas</li>
+<li><a href="http://socentlaw.com/">SocEntLaw</a>&nbsp;- law &amp; entrepreneurship blog</li>
+<li><a href="http://socialcapitalmarkets.net/">Social Capital Markets</a>&nbsp;- blog on the intersection of money and meaning</li>
+<li><a href="http://www.socialenterprise.org.uk/">Social Enterprise UK</a>&nbsp;- national body for social enterprises in England</li>
+<li><a href="http://www.socialinnovationexchange.org/home/blog">Social Innovation Exchange Blog</a> - global network for social innovation ideas</li>
+<li><a href="http://socialroi.com/">Social ROI</a>&nbsp;-&nbsp;blog on how social entrepreneurship is making the world a better place</li>
+<li><a href="http://www.ssireview.org/blog">Stanford Social Innovation Review Blog</a> - informing and inspiring leaders of social change</li>
+<li><a href="http://www.theselc.org/">The Sustainable Economies Law Center Blog</a></li>
+<li><a href="http://www.triplepundit.com/">TriplePundit</a>&nbsp;- blog on people, planet, profits</li>
+<li><a href="http://www.unsectored.net/">UnSectored Blog</a>&nbsp;- looking beyond sectors to collectively define progress and enact change</li>
+<li><a href="http://www.whitehouse.gov/administration/eop/sicp/blog">White House Office of Social Innovation and Civic Participation Blog</a></li>
+</ol>
+<div>
+<br />
+<b>Other Resources</b><br />
+<br /></div>
+</div>
+<div>
+<a href="http://www.socialvelocity.net/2011/10/a-monster-list-of-social-innovation-books-blogs-conferences-funders/">List of Books, Blogs, Funders, and Conferences</a> - compilation by socialvelocity</div>
+<div>
+<a href="http://www.itmagazine.net/pro-social-networking/top-50-social-entrepreneur-blogs/">Top 50 Social Entrepreneur Blogs</a> - compilation by (it)magazine</div>
+<div>
+<a href="http://www.invesp.com/blog-rank/social_entrepreneurship">Top 50 Social Entrepreneurship Blogs</a> - blogs ranked using 20 different factors</div>
+<div>
+<br /></div>
+</div>
+</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>neetal parekh</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.innov8social.com/2013/04/40-blogs-on-social-innovation-impact.html' rel='bookmark' title='permanent link'><abbr class='published' title='2013-04-30T19:22:00-07:00'>7:22 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.innov8social.com/2013/04/40-blogs-on-social-innovation-impact.html#comment-form' onclick=''>1 comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1756049676'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8821902060689977455&postID=7783878805533122060&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=7783878805533122060&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=7783878805533122060&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=7783878805533122060&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=7783878805533122060&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://www.innov8social.com/2013/04/40-blogs-on-social-innovation-impact.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://www.innov8social.com/search/label/community-building' rel='tag'>community-building</a>,
+<a href='http://www.innov8social.com/search/label/social%20media' rel='tag'>social media</a>,
+<a href='http://www.innov8social.com/search/label/tools' rel='tag'>tools</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sunday, April 28, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='1018090789292586879'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.innov8social.com/2013/04/hosting-social-innovation-unconference.html'>Hosting a Social Innovation Unconference</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-1018090789292586879'>
+<p><div dir="ltr" style="text-align: left;" trbidi="on">
+Attending events and writing about them for Innov8Social planted a seed to organize an unstructured event on social innovation. Having been to <a href="http://www.innov8social.com/search/label/startup%20weekend">StartUp Weekend</a> a couple of times I noticed that a hackathon-style gathering can lead to great ideas, teamwork, and empowering ways to think bigger.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://www.flickr.com/photos/44313045@N08/8689184283/" style="margin-left: 1em; margin-right: 1em;" title="social innovation unconference hackathon at legalforce by photologue_np, on Flickr"><img alt="social innovation unconference hackathon at legalforce" height="306" src="http://farm9.staticflickr.com/8540/8689184283_b127940c42.jpg" width="400" /></a></div>
+<br />
+<h3>
+the idea</h3>
+<br />
+After <a href="http://www.innov8social.com/2013/01/interview-with-nathan-pham-social.html">interviewing Nathan Pham from Goodjoe</a> I noted his passion for bringing together people and creating new forums for ideas. I pitched him the idea for an unstructured gathering of social innovation thinkers and doers. He was (thankfully) enthusiastic and interested. We worked together to plan an informal "social innovation unconference" involving a relatively small group of people immersed in different disciplines, with a knack for creating impact.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://www.flickr.com/photos/44313045@N08/8690306040/" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" title="social innovation unconference hackathon at legalforce by photologue_np, on Flickr"><img alt="social innovation unconference hackathon at legalforce" height="244" src="http://farm9.staticflickr.com/8538/8690306040_52decd6fdd.jpg" width="320" /></a></div>
+<a href="http://www.flickr.com/photos/44313045@N08/8689184477/" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" title="social innovation unconference hackathon at legalforce by photologue_np, on Flickr"><img alt="social innovation unconference hackathon at legalforce" height="244" src="http://farm9.staticflickr.com/8406/8689184477_dca98a06f8.jpg" width="320" /></a>It was a grand experiment to see what happens when you put people with different life/work experiences, who are passionate about creating a positive impact in a room together with the premise of identifying local problems and brainstorming solutions.<br />
+<br />
+<h3 style="text-align: left;">
+the first group</h3>
+<br />
+Our initial group included: a youth services professional, founder of <a href="http://govoluntr.com/">social enterprise GoVoluntr</a>, graphic designer with a passion for virtual currencies, a pediatrician with international relief experience, founder of <a href="http://www.goodjoe.com/">social enterprise Goodjoe</a> (Nathan), and founder of a blog on social innovation (myself).<br />
+<br />
+<h3 style="text-align: left;">
+the first venue</h3>
+<br />
+The event was held at the beautiful, hip storefront&nbsp;<a href="http://www.legalforce.com/bookflip/">LegalForce BookFlip</a>---which is a sizeable experiment of its own. The <a href="http://www.legalforcelaw.com/raj-v-abhyanker-3/">Founder of Trademarkia and LegalForce, Raj&nbsp;Abhyanker</a>, founded the swanky concept store as a retail location for law. Nestled in the heart of bustling downtown Palo Alto, across from the new Apple Store, LegalForce is what you might imagine an Apple approach to law to look and feel like. Bold bursts of orange draw the eye and the modern, design-centered theme carries through to every corner of the shop. Attorneys are on hand to answer questions and there is an array of legal and leadership books available for browse and buy.<br />
+<br />
+Raj and his team welcomed us to use their lower level conference room for our un-event. Against the creative backdrop, we sat down and begun to explain our backgrounds and what experiences have shaped our desire to use our careers to create change in addition to generating value.<br />
+<br />
+<h3 style="text-align: left;">
+a social innovation unconference/hackathon</h3>
+<br />
+It was a fascinating few hours. The congenial atmosphere led to an abundance of humor and joking, as well as serious dives into pressing issues.<br />
+<br />
+At the end of the session we whiteboarded our options for issues to address, what we wanted from the experience, and solutions to begin exploring. One local issue that came up was the lack of youth resources in the county. While a number of organizations serve youth, there didn't seem to be many centers or creative learning spaces for youth to seek mentorship, build skills, and just hang out.<br />
+<br />
+<a href="http://www.flickr.com/photos/44313045@N08/8690305856/" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;" title="social innovation unconference hackathon at legalforce by photologue_np, on Flickr"><img alt="social innovation unconference hackathon at legalforce" height="245" src="http://farm8.staticflickr.com/7054/8690305856_c3d603d515.jpg" width="320" /></a>The idea to address the youth issue through building some kind of youth accelerator program emerged. It could be a way for professionals to mentor youth, and for youth to drive their learning and interests. We have informally continued exploring the idea, even 'validate' the concept by pitching it to local youth.<br />
+<br />
+The day for me sparked something amazing. It was an opportunity to attend an event---and be transported from the audience to the speaker panel on stage. It was empowering to share some of the high-level concepts I have gleaned from writing and thinking about these issues for a long time with others who have also been exploring social innovation through their own lens.<br />
+<br />
+We are hoping to test out this social innovation hackathon unconference concept out again in the near future.<br />
+<br />
+<br /></div>
+</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>neetal parekh</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.innov8social.com/2013/04/hosting-social-innovation-unconference.html' rel='bookmark' title='permanent link'><abbr class='published' title='2013-04-28T18:46:00-07:00'>6:46 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.innov8social.com/2013/04/hosting-social-innovation-unconference.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1756049676'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8821902060689977455&postID=1018090789292586879&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=1018090789292586879&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=1018090789292586879&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=1018090789292586879&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=1018090789292586879&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://www.innov8social.com/2013/04/hosting-social-innovation-unconference.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://www.innov8social.com/search/label/event' rel='tag'>event</a>,
+<a href='http://www.innov8social.com/search/label/social%20innovation' rel='tag'>social innovation</a>,
+<a href='http://www.innov8social.com/search/label/social%20innovation%20unconference' rel='tag'>social innovation unconference</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, April 27, 2013</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='780660942319817958'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.innov8social.com/2013/04/the-importance-of-staying-grounded.html'>The Importance of Staying Grounded</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-780660942319817958'>
+<p><div dir="ltr" style="text-align: left;" trbidi="on">
+We have talked a lot about social innovation together. We've looked at <a href="http://www.innov8social.com/search/label/benefit%20corporation%20legislation">bills that have passed</a> that give social enterprise <a href="http://www.innov8social.com/search/label/legal%20structure">new legal structures</a>, <a href="http://www.innov8social.com/2011/10/50-fellowship-programs-for-social.html">fellowship programs</a> for the field, and <a href="http://www.innov8social.com/search/label/tools">tools</a> social entrepreneurs can use as they climb the proverbial mountain where money meets meaning.<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://www.flickr.com/photos/44313045@N08/8686611377/" style="margin-left: 1em; margin-right: 1em;" title="the importance of staying grounded by photologue_np, on Flickr"><img alt="the importance of staying grounded" height="300" src="http://farm9.staticflickr.com/8266/8686611377_220bdb49c6.jpg" width="400" /></a></div>
+<h3 style="text-align: left;">
+</h3>
+<h3 style="text-align: left;">
+</h3>
+<h3 style="text-align: left;">
+One thing we haven't covered is the importance of staying grounded.&nbsp;</h3>
+<div style="text-align: left;">
+<br /></div>
+<div style="text-align: left;">
+When you've chosen &nbsp;impact-driven goals, where your actions pursue profit but are not driven by them, and where risk of failure is incredibly high---it might be easy to feel a sense of self-righteousness about the cause you are addressing, the expertise you are developing, or the kinds of people you prefer to associate with.</div>
+<div style="text-align: left;">
+<br /></div>
+<div style="text-align: left;">
+This is a friendly note to say, resist giving in.&nbsp;</div>
+<div style="text-align: left;">
+<br /></div>
+<div style="text-align: left;">
+However understandable it may be to develop a sense of overconfidence about your expertise or social innovation knowledge, it is potentially dangerous in a field that demands creative thinking, endless collaboration, and a good listening ear. &nbsp;Forgetting the inherent "we" of social innovation could&nbsp;interfere with your efforts to create a positive impact.<br />
+<br />
+Avoid developing a social innovation ego, and recognize it when you see it in others.&nbsp;</div>
+<div style="text-align: left;">
+<br /></div>
+<br />
+<h3 style="text-align: left;">
+The sliver lining, is that humility reminds us to stay grounded.</h3>
+<br />
+Just about as often as a room can be crowded by social innovation egos, you will meet someone who is humble, genuinely curious, and generous with their time, knowledge, and experience. &nbsp;Through interviewing various leaders in the field I have seen and experienced it.<br />
+<br />
+Take for example, <a href="http://www.innov8social.com/2013/01/interview-with-nathan-pham-social.html">Nathan Pham of GoodJoe</a>. While interviewing him about his social enterprise I shared an idea I had been thinking about hosting a social innovation unconference (that post will be out soon). Instead of politely smiling and nodding and reminding me how busy he is, he began brainstorming on how we could make the grand experiment happen.<br />
+<br />
+Or, <a href="https://twitter.com/GTak">Gene Takagi of Neo Law</a>. Though we have met in person exactly twice, he has been incredibly supportive and generous over all modes of social media. He exudes genuine dedication to the field and support for those exploring it.<br />
+<br />
+Another snapshot of humility is Kim Meredith of <a href="http://www.innov8social.com/2013/01/notes-from-pitching-for-good.html">Stanford PACS</a>. (her interview will be out soon). She heads the department that oversees philanthropy and that is home to the <a href="http://www.innov8social.com/2011/08/newbies-guide-to-stanford-social.html">Stanford Social Innovation Review</a>. &nbsp;In interviewing her I was absolutely struck by her warmth and genuine passion for the field. <br />
+<br />
+There have been countless others who I have met once or regularly stay in touch who remind me to stay grounded through their own energy and poise.<br />
+<br />
+<h3 style="text-align: left;">
+So, what do you do when you encounter egos in the field?</h3>
+<br />
+One line of thinking is to first start by checking your own behavior. That is, just like you check your phone to make sure it's off silent when someone else's rings at a movie theater; when you observe ego creeping into a social innovation effort, it can initially be the perfect reminder to make sure you've checked your own at the door. By reframing the situation and choosing not get caught up in a battle of might, you may provide just the gentle reminder and space to help others stay grounded.<br />
+<br />
+After that, however, the water becomes murkier.<br />
+<br />
+If a certain viewpoint or personality is overtaking a social innovation effort, do you back out or dive deeper? A great deal likely depends on personality. If you work best in a collaborative state, you might do better to find like-minded collaborative-thinkers. If you, instead, thrive in banter and don't mind the debate then stay, challenge, and fight it out until a resolution is reached.<br />
+<br />
+<h3 style="text-align: left;">
+Lose yourself in service...</h3>
+<br />
+Some may say that the social innovation seeks to disrupt traditional business, law, and finance precisely because they have been driven by over-zealous egos. To that end, we may need to check ourselves to ensure that while doing so, it is for the purpose of <i>serving </i>a greater good. Then we can measure our own involvement by how we can best serve the greater cause.<br />
+<br />
+Gandhi once said, "the best way to find yourself is to lose yourself in the service of others." And perhaps the best way to find the path for social innovation is to remember that its essence lies in service.&nbsp;</div>
+</p>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>neetal parekh</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.innov8social.com/2013/04/the-importance-of-staying-grounded.html' rel='bookmark' title='permanent link'><abbr class='published' title='2013-04-27T17:29:00-07:00'>5:29 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.innov8social.com/2013/04/the-importance-of-staying-grounded.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1756049676'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8821902060689977455&postID=780660942319817958&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=780660942319817958&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=780660942319817958&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=780660942319817958&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=8821902060689977455&postID=780660942319817958&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://www.innov8social.com/2013/04/the-importance-of-staying-grounded.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://www.innov8social.com/search/label/community-building' rel='tag'>community-building</a>,
+<a href='http://www.innov8social.com/search/label/reflections' rel='tag'>reflections</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.innov8social.com/search?updated-max=2013-04-27T17:29:00-07:00&amp;max-results=8' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://www.innov8social.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://www.innov8social.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div><div class='widget HTML' id='HTML1'><script>
+var linkwithin_site_id = 711439;
+</script>
+<script src="http://www.linkwithin.com/widget.js"></script>
+<a href="http://www.linkwithin.com/"><img src="http://www.linkwithin.com/pixel.png" alt="Related Posts Plugin for WordPress, Blogger..." style="border: 0" /></a></div><div class='widget AdSense' id='AdSense1'>
+<div class='widget-content'>
+<script type="text/javascript"><!--
+google_ad_client="pub-9902159106554053";
+google_ad_host="pub-1556223355139109";
+google_ad_width=468;
+google_ad_height=15;
+google_ad_format="468x15_0ads_al_s";
+google_ad_host_channel="0001+S0021+L0004";
+google_color_border="CCCCCC";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="666666";
+google_color_text="333333";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=AdSense&widgetId=AdSense1&action=editWidget&sectionId=main' onclick='return _WidgetManager._PopupConfig(document.getElementById("AdSense1"));' target='configAdSense1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget CustomSearch' id='CustomSearch1'>
+<h2 class='title'>Search Innov8Social</h2>
+<div class='widget-content'>
+<div id='CustomSearch1_form'>
+<span class='cse-status'>Loading...</span>
+</div>
+</div>
+<style type='text/css'>
+      #uds-searchControl .gs-result .gs-title,
+      #uds-searchControl .gs-result .gs-title *,
+      #uds-searchControl .gsc-results .gsc-trailing-more-results,
+      #uds-searchControl .gsc-results .gsc-trailing-more-results * {
+        color:#1c780d;
+      }
+
+      #uds-searchControl .gs-result .gs-title a:visited,
+      #uds-searchControl .gs-result .gs-title a:visited * {
+        color:#0e6c2f;
+      }
+
+      #uds-searchControl .gs-relativePublishedDate,
+      #uds-searchControl .gs-publishedDate {
+        color: #6f6f6f;
+      }
+
+      #uds-searchControl .gs-result a.gs-visibleUrl,
+      #uds-searchControl .gs-result .gs-visibleUrl {
+        color: #1c780d;
+      }
+
+      #uds-searchControl .gsc-results {
+        border-color: #dadada;
+        background-color: #ffffff;
+      }
+
+      #uds-searchControl .gsc-tabhActive {
+        border-color: #dadada;
+        border-top-color: #dadada;
+        background-color: #ffffff;
+        color: #333333;
+      }
+
+      #uds-searchControl .gsc-tabhInactive {
+        border-color: #dadada;
+        background-color: transparent;
+        color: #1c780d;
+      }
+
+      #uds-searchClearResults {
+        border-color: #dadada;
+      }
+
+      #uds-searchClearResults:hover {
+        border-color: #dadada;
+      }
+
+      #uds-searchControl .gsc-cursor-page {
+        color: #1c780d;
+      }
+
+      #uds-searchControl .gsc-cursor-current-page {
+        color: #333333;
+      }
+    </style>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=CustomSearch&widgetId=CustomSearch1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("CustomSearch1"));' target='configCustomSearch1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML2'>
+<div class='widget-content'>
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/innov8social" width="180" show_faces="false" border_color="" stream="false" header="false"></fb:like-box>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML3'>
+<div class='widget-content'>
+<!-- Twitter follow button start -->
+<a href="http://twitter.com/Innov8Social" class="twitter-follow-button"data-show-count="false">Follow @Innov8Social</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<!-- Twitter follow button end -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget FollowByEmail' id='FollowByEmail1'>
+<h2 class='title'>Follow by Email</h2>
+<div class='widget-content'>
+<div class='follow-by-email-inner'>
+<form action='http://feedburner.google.com/fb/a/mailverify' method='post' onsubmit='window.open("http://feedburner.google.com/fb/a/mailverify?uri=Innov8social-ASocialInnovationExchange", "popupwindow", "scrollbars=yes,width=550,height=520"); return true' target='popupwindow'>
+<table width='100%'>
+<tr>
+<td>
+<input class='follow-by-email-address' name='email' placeholder='Email address...' type='text'/>
+</td>
+<td width='64px'>
+<input class='follow-by-email-submit' type='submit' value='Submit'/>
+</td>
+</tr>
+</table>
+<input name='uri' type='hidden' value='Innov8social-ASocialInnovationExchange'/>
+<input name='loc' type='hidden' value='en_US'/>
+</form>
+</div>
+</div>
+<span class='item-control blog-admin'>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=FollowByEmail&widgetId=FollowByEmail1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("FollowByEmail1"));' target='configFollowByEmail1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</span>
+</div><div class='widget PopularPosts' id='PopularPosts1'>
+<h2>Trending</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<a href='http://www.innov8social.com/2011/10/50-fellowship-programs-for-social.html'>50+ Fellowship Programs for Social Innovators</a>
+</li>
+<li>
+<a href='http://www.innov8social.com/2013/05/infographic-anatomy-of-winning-pitch.html'>Infographic: Anatomy of a Winning Pitch</a>
+</li>
+<li>
+<a href='http://www.innov8social.com/2011/10/blog-posts-about-californias-new-social.html'>Blog Posts About California's New Social Innovation Legislation</a>
+</li>
+<li>
+<a href='http://www.innov8social.com/2011/08/evolution-of-social-innovation-seen.html'>The Evolution of Social Innovation Through NPR Interviews</a>
+</li>
+<li>
+<a href='http://www.innov8social.com/2011/10/start-up-accelerator-and-incubator.html'>Start-Up Accelerator and Incubator Programs for Social Entrepreneurs</a>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts1"));' target='configPopularPosts1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+<script charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/innov809-20/8005/b516586f-cf37-41b0-89f9-991d6c431b46"> </script> <noscript><a href="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Finnov809-20%2F8005%2Fb516586f-cf37-41b0-89f9-991d6c431b46&Operation=NoScript">Amazon.com Widgets</a></noscript>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Label' id='Label1'>
+<h2>Categories</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/accelerator%20programs'>accelerator programs</a>
+<span dir='ltr'>(6)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/B%20corporation'>B corporation</a>
+<span dir='ltr'>(15)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/benefit%20corporation%20legislation'>benefit corporation legislation</a>
+<span dir='ltr'>(28)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/buzzwords'>buzzwords</a>
+<span dir='ltr'>(11)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/case%20law'>case law</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/community-building'>community-building</a>
+<span dir='ltr'>(16)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/constituency%20statute'>constituency statute</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/corporate%20fiduciary%20duty'>corporate fiduciary duty</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/crowdfunding'>crowdfunding</a>
+<span dir='ltr'>(13)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/event'>event</a>
+<span dir='ltr'>(26)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/fellowships'>fellowships</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/government'>government</a>
+<span dir='ltr'>(12)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/green%20tech'>green tech</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/impact%20investing'>impact investing</a>
+<span dir='ltr'>(20)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/incubator'>incubator</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/infographic'>infographic</a>
+<span dir='ltr'>(16)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/informed%20consumerism'>informed consumerism</a>
+<span dir='ltr'>(11)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/interview'>interview</a>
+<span dir='ltr'>(29)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/law%20review%20article'>law review article</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/legal%20structure'>legal structure</a>
+<span dir='ltr'>(22)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/LL.M'>LL.M</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/non-profit'>non-profit</a>
+<span dir='ltr'>(7)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/photos'>photos</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/product%20review'>product review</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/shareholders'>shareholders</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/SOCAP11'>SOCAP11</a>
+<span dir='ltr'>(10)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/social%20capital'>social capital</a>
+<span dir='ltr'>(13)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/social%20entrepreneur'>social entrepreneur</a>
+<span dir='ltr'>(53)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/social%20innovation'>social innovation</a>
+<span dir='ltr'>(66)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/social%20media'>social media</a>
+<span dir='ltr'>(23)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/SSIR'>SSIR</a>
+<span dir='ltr'>(6)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/startup'>startup</a>
+<span dir='ltr'>(15)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/tools'>tools</a>
+<span dir='ltr'>(32)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/triple%20bottom%20line'>triple bottom line</a>
+<span dir='ltr'>(9)</span>
+</li>
+<li>
+<a dir='ltr' href='http://www.innov8social.com/search/label/video'>video</a>
+<span dir='ltr'>(24)</span>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogList' id='BlogList1'>
+<h2 class='title'>Reading</h2>
+<div class='widget-content'>
+<div class='blog-list-container' id='BlogList1_container'>
+<ul id='BlogList1_blogs'>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://armchairadvocates.com' target='_blank'>
+Armchair Advocates</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://mashable.com/stories/?utm_campaign=Mash-Product-RSS-Pheedo-All-Partial&utm_cid=Mash-Product-RSS-Pheedo-All-Partial&utm_medium=feed&utm_source=rss' target='_blank'>
+Mashable SG</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://www.newempirebuilders.com' target='_blank'>
+NEB</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://www.theselc.org' target='_blank'>
+SELC</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://www.ssireview.org/blog/' target='_blank'>
+SSIR</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=BlogList&widgetId=BlogList1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogList1"));' target='configBlogList1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/search?updated-min=2013-01-01T00:00:00-08:00&amp;updated-max=2014-01-01T00:00:00-08:00&amp;max-results=50'>2013</a>
+<span class='post-count' dir='ltr'>(56)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2013_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(5)</span>
+<ul class='posts'>
+<li><a href='http://www.innov8social.com/2013/05/infographic-anatomy-of-winning-pitch.html'>Infographic: Anatomy of a Winning Pitch</a></li>
+<li><a href='http://www.innov8social.com/2013/05/change-vs-transformational-change-darcy.html'>Change vs. Transformational Change: Darcy Winslow ...</a></li>
+<li><a href='http://www.innov8social.com/2013/05/happy-birthday-mom-remembering-you.html'>Happy Birthday Mom, Remembering You</a></li>
+<li><a href='http://www.innov8social.com/2013/05/8-takeaways-from-stanford-codex.html'>8 Takeaways from Stanford Codex #FutureLaw 2013: T...</a></li>
+<li><a href='http://www.innov8social.com/2013/05/interview-with-r-todd-johnson-co-author.html'>Interview with R. Todd Johnson, Co-Author of Calif...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2013_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2013_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2013_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2013_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(21)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/search?updated-min=2012-01-01T00:00:00-08:00&amp;updated-max=2013-01-01T00:00:00-08:00&amp;max-results=36'>2012</a>
+<span class='post-count' dir='ltr'>(36)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(15)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2012_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/search?updated-min=2011-01-01T00:00:00-08:00&amp;updated-max=2012-01-01T00:00:00-08:00&amp;max-results=50'>2011</a>
+<span class='post-count' dir='ltr'>(111)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(25)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(30)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2011_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/search?updated-min=2010-01-01T00:00:00-08:00&amp;updated-max=2011-01-01T00:00:00-08:00&amp;max-results=2'>2010</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://www.innov8social.com/2010_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+<div class='widget Subscribe' id='Subscribe1'>
+<div style='white-space:nowrap'>
+<h2 class='title'>Subscribe To</h2>
+<div class='widget-content'>
+<div class='subscribe-wrapper subscribe-type-POST'>
+<div class='subscribe expanded subscribe-type-POST' id='SW_READER_LIST_Subscribe1POST' style='display:none;'>
+<div class='top'>
+<span class='inner' onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+Posts
+</span>
+<div class='feed-reader-links'>
+<a class='feed-reader-link' href='http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fwww.innov8social.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-netvibes.png'/>
+</a>
+<a class='feed-reader-link' href='http://add.my.yahoo.com/content?url=http%3A%2F%2Fwww.innov8social.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-yahoo.png'/>
+</a>
+<a class='feed-reader-link' href='http://www.innov8social.com/feeds/posts/default' target='_blank'>
+<img align='absmiddle' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+                Atom
+              </a>
+</div>
+</div>
+<div class='bottom'></div>
+</div>
+<div class='subscribe' id='SW_READER_LIST_CLOSED_Subscribe1POST' onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<div class='top'>
+<span class='inner'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<span onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+Posts
+</span>
+</span>
+</div>
+<div class='bottom'></div>
+</div>
+</div>
+<div class='subscribe-wrapper subscribe-type-COMMENT'>
+<div class='subscribe expanded subscribe-type-COMMENT' id='SW_READER_LIST_Subscribe1COMMENT' style='display:none;'>
+<div class='top'>
+<span class='inner' onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+All Comments
+</span>
+<div class='feed-reader-links'>
+<a class='feed-reader-link' href='http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fwww.innov8social.com%2Ffeeds%2Fcomments%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-netvibes.png'/>
+</a>
+<a class='feed-reader-link' href='http://add.my.yahoo.com/content?url=http%3A%2F%2Fwww.innov8social.com%2Ffeeds%2Fcomments%2Fdefault' target='_blank'>
+<img src='http://img1.blogblog.com/img/widgets/subscribe-yahoo.png'/>
+</a>
+<a class='feed-reader-link' href='http://www.innov8social.com/feeds/comments/default' target='_blank'>
+<img align='absmiddle' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+                Atom
+              </a>
+</div>
+</div>
+<div class='bottom'></div>
+</div>
+<div class='subscribe' id='SW_READER_LIST_CLOSED_Subscribe1COMMENT' onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<div class='top'>
+<span class='inner'>
+<img class='subscribe-dropdown-arrow' src='http://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<span onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='http://img1.blogblog.com/img/icon_feed12.png'/>
+All Comments
+</span>
+</span>
+</div>
+<div class='bottom'></div>
+</div>
+</div>
+<div style='clear:both'></div>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=Subscribe&widgetId=Subscribe1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Subscribe1"));' target='configSubscribe1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Copyright &#169; 2011-2013 <a href="http://www.innov8social.com/">Innov8Social</a>. Picture Window template. Powered by <a href='http://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' id='Image1'>
+<h2>Innov8Social - Exploring Social Innovation</h2>
+<div class='widget-content'>
+<a href='http://www.innov8social.com'>
+<img alt='Innov8Social - Exploring Social Innovation' height='112' id='Image1_img' src='http://1.bp.blogspot.com/-4Xmw-aWC1lg/UMA4gOje48I/AAAAAAAAH6A/k3WlQEjvRz0/s150/Photo%2B0.jpeg' width='150'/>
+</a>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8821902060689977455&widgetType=Image&widgetId=Image1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image1"));' target='configImage1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="//www.blogger.com/static/v1/widgets/4149467959-widgets.js"></script>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '8821902060689977455';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8821902060689977455','//www.innov8social.com/','8821902060689977455');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '8821902060689977455', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Innov8Social - Exploring Social Innovation', 'pageType': 'index', 'url': 'http://www.innov8social.com/', 'canonicalUrl': 'http://www.innov8social.com/', 'canonicalHomepageUrl': 'http://www.innov8social.com/', 'homepageUrl': 'http://www.innov8social.com/', 'blogspotFaviconUrl': 'http://www.innov8social.com/favicon.ico', 'enabledCommentProfileImages': false, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': 'UA-23772343-1', 'searchLabel': '', 'searchQuery': '', 'pageName': '', 'pageTitle': 'Innov8Social - Exploring Social Innovation', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Innov8Social - Exploring Social Innovation - Atom\42 href\75\42http://www.innov8social.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Innov8Social - Exploring Social Innovation - RSS\42 href\75\42http://www.innov8social.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Innov8Social - Exploring Social Innovation - Atom\42 href\75\42http://www.blogger.com/feeds/8821902060689977455/posts/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://www.innov8social.com/\42 /\76\n', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,e\75\42jstiming\42,g\75\42tick\42;(function(){function d(a){this.t\75{};this.tick\75function(a,d,c){c\75void 0!\75c?c:(new Date).getTime();this.t[a]\75[c,d]};this[g](\42start\42,null,a)}var a\75new d;b.jstiming\75{Timer:d,load:a};if(b.performance\46\46b.performance.timing){var a\75b.performance.timing,c\75b[e].load,f\75a.navigationStart,a\75a.responseStart;0\74f\46\46a\76\75f\46\46(c[g](\42_wtsrt\42,void 0,f),c[g](\42wtsrt_\42,\42_wtsrt\42,a),c[g](\42tbsd_\42,\42wtsrt_\42))}try{a\75null,b.chrome\46\46b.chrome.csi\46\46(a\75Math.floor(b.chrome.csi().pageT),c\46\0460\74f\46\46(c[g](\42_tbnd\42,void 0,b.chrome.csi().startE),\nc[g](\42tbnd_\42,\42_tbnd\42,f))),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46(a\75b.external.pageT,c\46\0460\74f\46\46(c[g](\42_tbnd\42,void 0,b.external.startE),c[g](\42tbnd_\42,\42_tbnd\42,f))),a\46\46(b[e].pt\75a)}catch(l){}})();b.tickAboveFold\75function(d){var a\0750;if(d.offsetParent){do a+\75d.offsetTop;while(d\75d.offsetParent)}d\75a;750\76\75d\46\46b[e].load[g](\42aft\42)};var h\75!1;function k(){h||(h\75!0,b[e].load[g](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,k,!1):b.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId': 'pub-9902159106554053', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42//www.blogger.com/static/v1/jsbin/2725281117-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/2556441d711ff161', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'skin', 'data': {'vars': {'content_padding': '15px', 'tabs_selected_background_color': '#ffffff', 'region_shadow_spread': '0', 'header_padding': '30px', 'tab_selected_background_gradient': 'url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png)', 'link_visited_color': '#0e6c2f', 'tabs_margin_sides': '0', 'post_title_font': 'normal normal 24px Cantarell', 'tabs_separator_color': '#c9c9c9', 'tabs_text_color': '#cca211', 'header_background_gradient': 'url(http://www.blogblog.com/1kt/transparent/header_gradient_shade.png)', 'widget_title_font': 'normal normal 14px Calibri', 'tab_first_border_radius': '10px', 'tabs_border_radius': '10px', 'keycolor': '#21411c', 'content_shadow_spread': '3px', 'main_background': 'transparent none repeat scroll top center', 'header_font': 'normal bold 50px Cantarell', 'footer_background': 'transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left', 'header_background_color': '#1c780d', 'widget_title_text_transform': 'uppercase', 'footer_link_visited_color': '#94c9bb', 'footer_link_hover_color': '#ffffff', 'footer_border_radius_bottom': '10px', 'tabs_background_gradient': 'url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png)', 'tab_background': 'transparent none no-repeat scroll top left', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'tabs_background_color': '#f3f3f3', 'header_border_radius': '10px', 'post_margin_sides': '-20px', 'link_hover_color': '#0fba10', 'footer_link_color': '#d9fff4', 'content_background': 'transparent url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left', 'tabs_margin_bottom': '0', 'body_text_color': '#333333', 'main_padding_sides': '5px', 'post_border_color': '#dadada', 'footer_text_color': '#ececec', 'footer_border_radius_top': '10px', 'post_background_color': '#ffffff', 'content_border_radius': '15px', 'endSide': 'right', 'post_footer_text_color': '#949494', 'startSide': 'left', 'date_header_color': '#333333', 'tabs_font': 'normal normal 17px Calibri', 'body_font': 'normal normal 16px Calibri', 'post_border_radius': '10px', 'widget_title_text_color': '#666666', 'content_margin': '30px', 'link_color': '#1c780d', 'footer_widget_title_text_color': '#b7b7b7', 'header_text_color': '#ffffff', 'main_border_radius_top': '0', 'region_shadow_offset': '0', 'tab_border_radius': '0', 'tabs_selected_text_color': '#333333', 'body_background_color': '#dadada', 'tabs_spacing': '0'}, 'override': '.foot .Image {text-align:center}'}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'), {'title': '', 'links': [{'href': 'http://www.innov8social.com/', 'title': 'Home', 'isCurrentPage': true}, {'href': 'http://www.innov8social.com/p/about.html', 'title': 'About', 'isCurrentPage': false}, {'href': 'http://www.innov8social.com/p/contact.html', 'title': 'Contact', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new _WidgetInfo('CustomSearch1', 'sidebar-right-1', null, document.getElementById('CustomSearch1'), {'title': 'Search Innov8Social', 'includeBlog': true, 'includePostLinks': false, 'includeWeb': false, 'linkLists': [], 'blogUrl': 'http://www.innov8social.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web', 'backgroundColor': '#ffffff', 'textColor': '#333333', 'dateColor': '#6f6f6f', 'linkColor': '#1c780d', 'urlColor': '#1c780d', 'visitedLinkColor': '#0e6c2f', 'borderColor': '#dadada', 'activeBorderColor': '#dadada'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar-right-1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowByEmailView', new _WidgetInfo('FollowByEmail1', 'sidebar-right-1', null, document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar-right-1', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar-right-1', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar-right-1', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList1', 'sidebar-right-1', null, document.getElementById('BlogList1'), {'numItemsToShow': 0, 'totalItems': 5}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SubscribeView', new _WidgetInfo('Subscribe1', 'sidebar-right-1', null, document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Copyright &#169; 2011-2013 \74a href\75\42http://www.innov8social.com/\42\76Innov8Social\74/a\76. Picture Window template. Powered by \74a href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1', 'footer-3', null, document.getElementById('Image1'), {'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': '//www.blogger.com/static/v1/jsbin/1688709945-lbx.js', 'lightboxCssUrl': '//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'main', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1', 'main', null, document.getElementById('AdSense1'), {}, 'displayModeFull'));
 </script>
 </body>
 </html>
